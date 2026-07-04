@@ -1,0 +1,127 @@
+/* fraunces-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fraunces-v38-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/fraunces-v38-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/barlow-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/barlow-v13-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+body{
+    font-family: 'Fraunces';
+}
+.container{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 23px;
+}
+.header{
+    background-color: transparent;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.header__nav-list{
+    display: flex;
+    gap: 33px;
+}
+.header__nav-item-link{
+color: #333D4B;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.92px;
+text-transform: uppercase;
+transition: 0.3s ease;
+}
+.header__nav-item-link:hover{
+    color: #262a30;
+}
+.intro{
+    margin-top: 20px;
+}
+.intro__container{
+    background-image: url(../img/intro-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 85px;
+}
+.intro__slogan{
+font-family: "Fraunces";
+    width: 493px;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+letter-spacing: 0px;
+color: #FEFCF7;
+margin-bottom: 32px;
+}
+.intro__text{
+width: 443px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0px;
+color: #FEFCF7;
+margin-bottom: 52px;
+}
+.plans__link{
+font-family:"Fraunces";
+width: 217px;
+display: inline-block;
+ background-color: #66D2CF;
+color: #FEFCF7;
+padding: 16px 31px;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0px;
+border-radius: 6px;
+}
